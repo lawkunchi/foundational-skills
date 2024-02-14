@@ -1,3 +1,7 @@
+How to run
+  - Clone this repo
+  - And open the index.html in the browser
+    
 Task 1: Advanced Stylish Button
   - Shows the button with the below styles:
     ● Background color: #4CAF50
