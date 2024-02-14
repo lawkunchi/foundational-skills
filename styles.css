@@ -1,0 +1,54 @@
+/* Import the Roboto font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+/* Apply the Roboto font to the body of the document */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  margin: 50px 0;
+}
+
+.container {
+  width: 50%;
+  margin: 100px auto;
+}
+
+/* Style the button */
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition effects for the background color and box shadow */
+  outline: none;
+}
+
+.button:hover {
+  background-color: #45a049;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:focus {
+  outline: 2px solid #388e3c;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  position: relative;
+  height: 50px;
+}
+
+/* Hide the content and position it absolutely */
+.content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+}
+/* Make the content visible with class visible */
+.visible {
+  opacity: 1;
+}
